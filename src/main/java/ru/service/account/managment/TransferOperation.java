@@ -4,6 +4,10 @@ import org.apache.log4j.Logger;
 
 import ru.service.account.entity.Account;
 
+/**
+ * @author maxim
+ * Класс выполнения операций изменения счета
+ */
 public class TransferOperation {
 	
 	private final static Logger logger = Logger.getLogger(TransferOperation.class);
@@ -12,24 +16,31 @@ public class TransferOperation {
 	private Account outcomeAccount;
 	
 	
-	public TransferOperation(Account incomeAccount, Account outcomeAccount, int changeValue) {
+	TransferOperation(Account incomeAccount, Account outcomeAccount) {
 		this.incomeAccount = incomeAccount;
 		this.outcomeAccount = outcomeAccount;
-		
-		transferMoney(changeValue);
 	}
 
 
-	private void transferMoney(int changeValue) {
+	void transferMoney(int changeValue) {
+		outcomeAccount.lock();
+		
 		if (outcomeAccount.getMoney() - changeValue < 0) {
-			logger.debug("Not enough money from accout " + outcomeAccount.getID());
+			logger.debug("Not enough money from accout " + outcomeAccount.getID() + " " + outcomeAccount.getMoney());
+			outcomeAccount.unlock();
 			return;
 		}
 		
-		logger.debug("change money from " + outcomeAccount.getID() + " to " + incomeAccount.getID() + " " + changeValue);
+		logger.debug("change money from " + outcomeAccount.getID() + " " + changeValue);
+
+		changeValueMoney(outcomeAccount, changeValue, false);	
+		outcomeAccount.unlock();
 		
+		incomeAccount.lock();
+		logger.debug("change money to " + incomeAccount.getID() + " " + changeValue);
 		changeValueMoney(incomeAccount, changeValue, true);
-		changeValueMoney(outcomeAccount, changeValue, false);				
+
+		incomeAccount.unlock();		
 	}
 	
 	private void changeValueMoney(Account account, Integer value, boolean isIncome) {

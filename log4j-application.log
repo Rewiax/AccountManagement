@@ -3275,3 +3275,653 @@ java.lang.InterruptedException: sleep interrupted
 2021-09-09 15:58:55 DEBUG TransferOperation:29 - change money from 7532404d-ade0-47dc-8c65-332be7975df4 to 66ffe486-7608-4fc2-b73b-44b1db0a672e 2578
 2021-09-09 15:58:55 DEBUG TransferOperation:29 - change money from 1dd19554-576d-4f70-802f-451eb1d9008c to 70f7c24d-42ee-4acc-a6f0-a8bd53de3deb 7574
 2021-09-09 15:58:56 DEBUG TransferGenerator:49 - 4 [Account [ID=66ffe486-7608-4fc2-b73b-44b1db0a672e, Money=8514], Account [ID=7532404d-ade0-47dc-8c65-332be7975df4, Money=2524], Account [ID=70f7c24d-42ee-4acc-a6f0-a8bd53de3deb, Money=22936], Account [ID=1dd19554-576d-4f70-802f-451eb1d9008c, Money=6026]]
+2021-09-09 16:27:21 DEBUG TransferGenerator:33 - [Account [ID=1381bb43-8d80-41ce-b608-9b88e8348914, Money=10000], Account [ID=2e847341-ca7f-43df-836d-034aa5b6dca9, Money=10000], Account [ID=695226ac-04ce-4f0d-827c-9519a9e06bfe, Money=10000], Account [ID=566cdcaf-c78f-42d7-bdf4-944d49ca1ff8, Money=10000]]
+2021-09-09 16:27:21 DEBUG TransferOperation:27 - change money from 695226ac-04ce-4f0d-827c-9519a9e06bfe to 1381bb43-8d80-41ce-b608-9b88e8348914 7753
+2021-09-09 16:27:22 DEBUG TransferOperation:27 - change money from 1381bb43-8d80-41ce-b608-9b88e8348914 to 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 6699
+2021-09-09 16:27:22 DEBUG TransferOperation:27 - change money from 2e847341-ca7f-43df-836d-034aa5b6dca9 to 695226ac-04ce-4f0d-827c-9519a9e06bfe 6380
+2021-09-09 16:27:24 DEBUG TransferOperation:27 - change money from 695226ac-04ce-4f0d-827c-9519a9e06bfe to 1381bb43-8d80-41ce-b608-9b88e8348914 5088
+2021-09-09 16:27:24 DEBUG TransferOperation:27 - change money from 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 to 2e847341-ca7f-43df-836d-034aa5b6dca9 6599
+2021-09-09 16:27:25 DEBUG TransferOperation:27 - change money from 2e847341-ca7f-43df-836d-034aa5b6dca9 to 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 5751
+2021-09-09 16:27:25 DEBUG TransferOperation:27 - change money from 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 to 695226ac-04ce-4f0d-827c-9519a9e06bfe 9165
+2021-09-09 16:27:25 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:27 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:27 DEBUG TransferOperation:27 - change money from 695226ac-04ce-4f0d-827c-9519a9e06bfe to 1381bb43-8d80-41ce-b608-9b88e8348914 1682
+2021-09-09 16:27:28 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:28 DEBUG TransferOperation:27 - change money from 695226ac-04ce-4f0d-827c-9519a9e06bfe to 1381bb43-8d80-41ce-b608-9b88e8348914 7000
+2021-09-09 16:27:29 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:29 DEBUG TransferOperation:27 - change money from 1381bb43-8d80-41ce-b608-9b88e8348914 to 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 8559
+2021-09-09 16:27:30 DEBUG TransferOperation:27 - change money from 695226ac-04ce-4f0d-827c-9519a9e06bfe to 2e847341-ca7f-43df-836d-034aa5b6dca9 3162
+2021-09-09 16:27:30 DEBUG TransferOperation:27 - change money from 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 to 1381bb43-8d80-41ce-b608-9b88e8348914 8958
+2021-09-09 16:27:31 DEBUG TransferOperation:27 - change money from 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 to 695226ac-04ce-4f0d-827c-9519a9e06bfe 933
+2021-09-09 16:27:31 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:32 DEBUG TransferOperation:23 - Not enough money from accout 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8
+2021-09-09 16:27:32 DEBUG TransferOperation:27 - change money from 1381bb43-8d80-41ce-b608-9b88e8348914 to 2e847341-ca7f-43df-836d-034aa5b6dca9 6617
+2021-09-09 16:27:32 DEBUG TransferOperation:23 - Not enough money from accout 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8
+2021-09-09 16:27:32 DEBUG TransferOperation:27 - change money from 2e847341-ca7f-43df-836d-034aa5b6dca9 to 695226ac-04ce-4f0d-827c-9519a9e06bfe 5326
+2021-09-09 16:27:33 DEBUG TransferOperation:27 - change money from 695226ac-04ce-4f0d-827c-9519a9e06bfe to 1381bb43-8d80-41ce-b608-9b88e8348914 6377
+2021-09-09 16:27:33 DEBUG TransferOperation:27 - change money from 2e847341-ca7f-43df-836d-034aa5b6dca9 to 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 2888
+2021-09-09 16:27:34 DEBUG TransferOperation:27 - change money from 2e847341-ca7f-43df-836d-034aa5b6dca9 to 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 2671
+2021-09-09 16:27:35 DEBUG TransferOperation:23 - Not enough money from accout 695226ac-04ce-4f0d-827c-9519a9e06bfe
+2021-09-09 16:27:35 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:36 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:37 DEBUG TransferOperation:23 - Not enough money from accout 2e847341-ca7f-43df-836d-034aa5b6dca9
+2021-09-09 16:27:37 DEBUG TransferOperation:27 - change money from 1381bb43-8d80-41ce-b608-9b88e8348914 to 566cdcaf-c78f-42d7-bdf4-944d49ca1ff8 2891
+2021-09-09 16:27:38 DEBUG TransferGenerator:49 - 4 [Account [ID=695226ac-04ce-4f0d-827c-9519a9e06bfe, Money=742], Account [ID=2e847341-ca7f-43df-836d-034aa5b6dca9, Money=3362], Account [ID=566cdcaf-c78f-42d7-bdf4-944d49ca1ff8, Money=13804], Account [ID=1381bb43-8d80-41ce-b608-9b88e8348914, Money=22092]]
+2021-09-09 16:58:30 DEBUG TransferGenerator:35 - [Account [ID=1c03824f-ccb5-480c-a439-250b7479967a, Money=10000], Account [ID=f6b74fc2-4221-46c9-9da8-91fb2f0f6556, Money=10000], Account [ID=dced993c-fd21-4705-9aa6-47c0395da2e0, Money=10000], Account [ID=fb7c1d45-fca7-4af2-bd2a-06a07746e599, Money=10000]]
+2021-09-09 16:58:30 DEBUG TransferOperation:30 - change money from fb7c1d45-fca7-4af2-bd2a-06a07746e599 7058
+2021-09-09 16:58:30 DEBUG TransferOperation:36 - change money to f6b74fc2-4221-46c9-9da8-91fb2f0f6556 7058
+2021-09-09 16:58:31 DEBUG TransferOperation:30 - change money from dced993c-fd21-4705-9aa6-47c0395da2e0 1709
+2021-09-09 16:58:31 DEBUG TransferOperation:36 - change money to f6b74fc2-4221-46c9-9da8-91fb2f0f6556 1709
+2021-09-09 16:58:32 DEBUG TransferOperation:30 - change money from 1c03824f-ccb5-480c-a439-250b7479967a 3096
+2021-09-09 16:58:32 DEBUG TransferOperation:36 - change money to dced993c-fd21-4705-9aa6-47c0395da2e0 3096
+2021-09-09 16:58:32 DEBUG TransferOperation:25 - Not enough money from accout fb7c1d45-fca7-4af2-bd2a-06a07746e599 2942
+2021-09-09 16:58:33 DEBUG TransferOperation:25 - Not enough money from accout fb7c1d45-fca7-4af2-bd2a-06a07746e599 2942
+2021-09-09 16:58:33 DEBUG TransferOperation:30 - change money from dced993c-fd21-4705-9aa6-47c0395da2e0 149
+2021-09-09 16:58:33 DEBUG TransferOperation:36 - change money to fb7c1d45-fca7-4af2-bd2a-06a07746e599 149
+2021-09-09 16:58:35 DEBUG TransferOperation:30 - change money from f6b74fc2-4221-46c9-9da8-91fb2f0f6556 7471
+2021-09-09 16:58:35 DEBUG TransferOperation:36 - change money to 1c03824f-ccb5-480c-a439-250b7479967a 7471
+2021-09-09 16:58:35 DEBUG TransferOperation:30 - change money from dced993c-fd21-4705-9aa6-47c0395da2e0 7565
+2021-09-09 16:58:35 DEBUG TransferOperation:36 - change money to f6b74fc2-4221-46c9-9da8-91fb2f0f6556 7565
+2021-09-09 16:58:36 DEBUG TransferOperation:30 - change money from fb7c1d45-fca7-4af2-bd2a-06a07746e599 1126
+2021-09-09 16:58:36 DEBUG TransferOperation:36 - change money to f6b74fc2-4221-46c9-9da8-91fb2f0f6556 1126
+2021-09-09 16:58:36 DEBUG TransferOperation:30 - change money from 1c03824f-ccb5-480c-a439-250b7479967a 9348
+2021-09-09 16:58:36 DEBUG TransferOperation:36 - change money to fb7c1d45-fca7-4af2-bd2a-06a07746e599 9348
+2021-09-09 16:58:36 DEBUG TransferOperation:25 - Not enough money from accout 1c03824f-ccb5-480c-a439-250b7479967a 5027
+2021-09-09 16:58:37 DEBUG TransferOperation:30 - change money from f6b74fc2-4221-46c9-9da8-91fb2f0f6556 3962
+2021-09-09 16:58:37 DEBUG TransferOperation:36 - change money to fb7c1d45-fca7-4af2-bd2a-06a07746e599 3962
+2021-09-09 16:58:38 DEBUG TransferOperation:30 - change money from fb7c1d45-fca7-4af2-bd2a-06a07746e599 6583
+2021-09-09 16:58:38 DEBUG TransferOperation:36 - change money to dced993c-fd21-4705-9aa6-47c0395da2e0 6583
+2021-09-09 16:58:38 DEBUG TransferOperation:30 - change money from fb7c1d45-fca7-4af2-bd2a-06a07746e599 6742
+2021-09-09 16:58:38 DEBUG TransferOperation:30 - change money from 1c03824f-ccb5-480c-a439-250b7479967a 2455
+2021-09-09 16:58:38 DEBUG TransferOperation:36 - change money to fb7c1d45-fca7-4af2-bd2a-06a07746e599 2455
+2021-09-09 16:58:38 DEBUG TransferOperation:36 - change money to 1c03824f-ccb5-480c-a439-250b7479967a 6742
+2021-09-09 16:58:39 DEBUG TransferOperation:25 - Not enough money from accout fb7c1d45-fca7-4af2-bd2a-06a07746e599 4405
+2021-09-09 16:58:39 DEBUG TransferOperation:30 - change money from f6b74fc2-4221-46c9-9da8-91fb2f0f6556 1035
+2021-09-09 16:58:39 DEBUG TransferOperation:36 - change money to fb7c1d45-fca7-4af2-bd2a-06a07746e599 1035
+2021-09-09 16:58:45 DEBUG TransferGenerator:35 - [Account [ID=a4561b40-439f-4cbb-93be-5a9a09e2f376, Money=10000], Account [ID=faa62167-04a6-4985-8236-1dbf670cb385, Money=10000], Account [ID=b47a8e21-d628-4a78-898b-4967c96c129d, Money=10000], Account [ID=1dde877e-ee7f-4773-982d-d2d25218b93b, Money=10000]]
+2021-09-09 16:58:46 DEBUG TransferOperation:30 - change money from b47a8e21-d628-4a78-898b-4967c96c129d 7566
+2021-09-09 16:58:46 DEBUG TransferOperation:36 - change money to b47a8e21-d628-4a78-898b-4967c96c129d 7566
+2021-09-09 16:58:46 DEBUG TransferGenerator:106 - transaction end 29 Thread-4
+2021-09-09 16:58:47 DEBUG TransferOperation:30 - change money from 1dde877e-ee7f-4773-982d-d2d25218b93b 298
+2021-09-09 16:58:47 DEBUG TransferOperation:36 - change money to b47a8e21-d628-4a78-898b-4967c96c129d 298
+2021-09-09 16:58:47 DEBUG TransferOperation:30 - change money from 1dde877e-ee7f-4773-982d-d2d25218b93b 4778
+2021-09-09 16:58:47 DEBUG TransferGenerator:106 - transaction end 28 Thread-3
+2021-09-09 16:58:47 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 4778
+2021-09-09 16:58:47 DEBUG TransferGenerator:106 - transaction end 27 Thread-4
+2021-09-09 16:58:48 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 1166
+2021-09-09 16:58:48 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 1166
+2021-09-09 16:58:48 DEBUG TransferGenerator:106 - transaction end 26 Thread-4
+2021-09-09 16:58:49 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 697
+2021-09-09 16:58:49 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 697
+2021-09-09 16:58:49 DEBUG TransferGenerator:106 - transaction end 25 Thread-4
+2021-09-09 16:58:49 DEBUG TransferOperation:25 - Not enough money from accout 1dde877e-ee7f-4773-982d-d2d25218b93b 4924
+2021-09-09 16:58:49 DEBUG TransferGenerator:106 - transaction end 24 Thread-3
+2021-09-09 16:58:49 DEBUG TransferOperation:30 - change money from b47a8e21-d628-4a78-898b-4967c96c129d 5459
+2021-09-09 16:58:49 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 5459
+2021-09-09 16:58:49 DEBUG TransferGenerator:106 - transaction end 23 Thread-3
+2021-09-09 16:58:50 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 3160
+2021-09-09 16:58:50 DEBUG TransferOperation:36 - change money to 1dde877e-ee7f-4773-982d-d2d25218b93b 3160
+2021-09-09 16:58:50 DEBUG TransferGenerator:106 - transaction end 22 Thread-3
+2021-09-09 16:58:50 DEBUG TransferOperation:25 - Not enough money from accout b47a8e21-d628-4a78-898b-4967c96c129d 4839
+2021-09-09 16:58:50 DEBUG TransferGenerator:106 - transaction end 21 Thread-4
+2021-09-09 16:58:51 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 3304
+2021-09-09 16:58:51 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 3304
+2021-09-09 16:58:51 DEBUG TransferGenerator:106 - transaction end 20 Thread-4
+2021-09-09 16:58:52 DEBUG TransferOperation:30 - change money from 1dde877e-ee7f-4773-982d-d2d25218b93b 2527
+2021-09-09 16:58:52 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 2527
+2021-09-09 16:58:52 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 1225
+2021-09-09 16:58:52 DEBUG TransferOperation:36 - change money to 1dde877e-ee7f-4773-982d-d2d25218b93b 1225
+2021-09-09 16:58:52 DEBUG TransferGenerator:106 - transaction end 18 Thread-4
+2021-09-09 16:58:52 DEBUG TransferGenerator:106 - transaction end 19 Thread-3
+2021-09-09 16:58:53 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 2392
+2021-09-09 16:58:53 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 2392
+2021-09-09 16:58:53 DEBUG TransferGenerator:106 - transaction end 17 Thread-4
+2021-09-09 16:58:53 DEBUG TransferOperation:25 - Not enough money from accout b47a8e21-d628-4a78-898b-4967c96c129d 4839
+2021-09-09 16:58:53 DEBUG TransferGenerator:106 - transaction end 16 Thread-3
+2021-09-09 16:58:55 DEBUG TransferOperation:30 - change money from b47a8e21-d628-4a78-898b-4967c96c129d 4568
+2021-09-09 16:58:55 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 4568
+2021-09-09 16:58:55 DEBUG TransferGenerator:106 - transaction end 15 Thread-4
+2021-09-09 16:58:55 DEBUG TransferOperation:30 - change money from 1dde877e-ee7f-4773-982d-d2d25218b93b 1340
+2021-09-09 16:58:55 DEBUG TransferOperation:36 - change money to 1dde877e-ee7f-4773-982d-d2d25218b93b 1340
+2021-09-09 16:58:55 DEBUG TransferGenerator:106 - transaction end 14 Thread-3
+2021-09-09 16:58:57 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 1274
+2021-09-09 16:58:57 DEBUG TransferOperation:25 - Not enough money from accout 1dde877e-ee7f-4773-982d-d2d25218b93b 6782
+2021-09-09 16:58:57 DEBUG TransferGenerator:106 - transaction end 13 Thread-3
+2021-09-09 16:58:57 DEBUG TransferOperation:36 - change money to 1dde877e-ee7f-4773-982d-d2d25218b93b 1274
+2021-09-09 16:58:57 DEBUG TransferGenerator:106 - transaction end 12 Thread-4
+2021-09-09 16:58:57 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 5418
+2021-09-09 16:58:57 DEBUG TransferOperation:36 - change money to a4561b40-439f-4cbb-93be-5a9a09e2f376 5418
+2021-09-09 16:58:57 DEBUG TransferGenerator:106 - transaction end 11 Thread-4
+2021-09-09 16:58:58 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 1036
+2021-09-09 16:58:58 DEBUG TransferOperation:36 - change money to 1dde877e-ee7f-4773-982d-d2d25218b93b 1036
+2021-09-09 16:58:58 DEBUG TransferGenerator:106 - transaction end 10 Thread-3
+2021-09-09 16:58:59 DEBUG TransferOperation:30 - change money from 1dde877e-ee7f-4773-982d-d2d25218b93b 6502
+2021-09-09 16:58:59 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 3559
+2021-09-09 16:58:59 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 3559
+2021-09-09 16:58:59 DEBUG TransferGenerator:106 - transaction end 9 Thread-4
+2021-09-09 16:58:59 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 6502
+2021-09-09 16:58:59 DEBUG TransferGenerator:106 - transaction end 8 Thread-3
+2021-09-09 16:58:59 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 636
+2021-09-09 16:58:59 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 636
+2021-09-09 16:58:59 DEBUG TransferGenerator:106 - transaction end 7 Thread-3
+2021-09-09 16:59:00 DEBUG TransferOperation:30 - change money from b47a8e21-d628-4a78-898b-4967c96c129d 219
+2021-09-09 16:59:00 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 219
+2021-09-09 16:59:00 DEBUG TransferGenerator:106 - transaction end 6 Thread-4
+2021-09-09 16:59:00 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 457
+2021-09-09 16:59:00 DEBUG TransferOperation:36 - change money to b47a8e21-d628-4a78-898b-4967c96c129d 457
+2021-09-09 16:59:00 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 3996
+2021-09-09 16:59:00 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 3996
+2021-09-09 16:59:00 DEBUG TransferGenerator:106 - transaction end 4 Thread-3
+2021-09-09 16:59:00 DEBUG TransferGenerator:106 - transaction end 5 Thread-4
+2021-09-09 16:59:01 DEBUG TransferOperation:30 - change money from a4561b40-439f-4cbb-93be-5a9a09e2f376 5663
+2021-09-09 16:59:01 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 5663
+2021-09-09 16:59:01 DEBUG TransferGenerator:106 - transaction end 3 Thread-3
+2021-09-09 16:59:01 DEBUG TransferOperation:25 - Not enough money from accout 1dde877e-ee7f-4773-982d-d2d25218b93b 2590
+2021-09-09 16:59:01 DEBUG TransferGenerator:106 - transaction end 2 Thread-4
+2021-09-09 16:59:01 DEBUG TransferOperation:25 - Not enough money from accout 1dde877e-ee7f-4773-982d-d2d25218b93b 2590
+2021-09-09 16:59:01 DEBUG TransferGenerator:106 - transaction end 1 Thread-3
+2021-09-09 16:59:03 DEBUG TransferOperation:30 - change money from faa62167-04a6-4985-8236-1dbf670cb385 9413
+2021-09-09 16:59:03 DEBUG TransferOperation:36 - change money to faa62167-04a6-4985-8236-1dbf670cb385 9413
+2021-09-09 16:59:03 DEBUG TransferGenerator:106 - transaction end 0 Thread-3
+2021-09-09 16:59:03 DEBUG TransferOperation:25 - Not enough money from accout 1dde877e-ee7f-4773-982d-d2d25218b93b 2590
+2021-09-09 16:59:03 DEBUG TransferGenerator:106 - transaction end -1 Thread-4
+2021-09-09 16:59:04 DEBUG TransferGenerator:51 - 4 [Account [ID=a4561b40-439f-4cbb-93be-5a9a09e2f376, Money=11709], Account [ID=faa62167-04a6-4985-8236-1dbf670cb385, Money=25192], Account [ID=b47a8e21-d628-4a78-898b-4967c96c129d, Money=509], Account [ID=1dde877e-ee7f-4773-982d-d2d25218b93b, Money=2590]]
+2021-09-09 17:01:19 DEBUG TransferGenerator:35 - [Account [ID=89226922-ec75-4591-b8fe-94d066ad7bb9, Money=10000], Account [ID=7d01f0fe-6551-4989-bccc-82415db23f60, Money=10000], Account [ID=1ef038c3-787c-4549-97b5-7b1c0c0931fe, Money=10000], Account [ID=b3ea610e-9efd-441a-8f9b-17e13b03d0af, Money=10000]]
+2021-09-09 17:01:20 DEBUG TransferOperation:30 - change money from 89226922-ec75-4591-b8fe-94d066ad7bb9 4942
+2021-09-09 17:01:20 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 7813
+2021-09-09 17:01:20 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 7813
+2021-09-09 17:01:20 DEBUG TransferGenerator:107 - transaction end 28 Thread-4
+2021-09-09 17:01:20 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 4942
+2021-09-09 17:01:20 DEBUG TransferGenerator:107 - transaction end 28 Thread-3
+2021-09-09 17:01:21 DEBUG TransferOperation:30 - change money from 7d01f0fe-6551-4989-bccc-82415db23f60 6564
+2021-09-09 17:01:21 DEBUG TransferOperation:36 - change money to 7d01f0fe-6551-4989-bccc-82415db23f60 6564
+2021-09-09 17:01:21 DEBUG TransferGenerator:107 - transaction end 27 Thread-3
+2021-09-09 17:01:22 DEBUG TransferOperation:30 - change money from 1ef038c3-787c-4549-97b5-7b1c0c0931fe 9921
+2021-09-09 17:01:22 DEBUG TransferOperation:36 - change money to 7d01f0fe-6551-4989-bccc-82415db23f60 9921
+2021-09-09 17:01:22 DEBUG TransferGenerator:107 - transaction end 25 Thread-3
+2021-09-09 17:01:22 DEBUG TransferOperation:25 - Not enough money from accout 1ef038c3-787c-4549-97b5-7b1c0c0931fe 79
+2021-09-09 17:01:22 DEBUG TransferGenerator:107 - transaction end 25 Thread-4
+2021-09-09 17:01:23 DEBUG TransferOperation:25 - Not enough money from accout 1ef038c3-787c-4549-97b5-7b1c0c0931fe 79
+2021-09-09 17:01:23 DEBUG TransferGenerator:107 - transaction end 23 Thread-3
+2021-09-09 17:01:23 DEBUG TransferOperation:30 - change money from 89226922-ec75-4591-b8fe-94d066ad7bb9 4695
+2021-09-09 17:01:23 DEBUG TransferOperation:36 - change money to 7d01f0fe-6551-4989-bccc-82415db23f60 4695
+2021-09-09 17:01:23 DEBUG TransferGenerator:107 - transaction end 23 Thread-4
+2021-09-09 17:01:25 DEBUG TransferOperation:30 - change money from 7d01f0fe-6551-4989-bccc-82415db23f60 8168
+2021-09-09 17:01:25 DEBUG TransferOperation:36 - change money to 1ef038c3-787c-4549-97b5-7b1c0c0931fe 8168
+2021-09-09 17:01:25 DEBUG TransferGenerator:107 - transaction end 21 Thread-3
+2021-09-09 17:01:25 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 2972
+2021-09-09 17:01:25 DEBUG TransferOperation:36 - change money to 89226922-ec75-4591-b8fe-94d066ad7bb9 2972
+2021-09-09 17:01:25 DEBUG TransferGenerator:107 - transaction end 21 Thread-4
+2021-09-09 17:01:27 DEBUG TransferOperation:30 - change money from 1ef038c3-787c-4549-97b5-7b1c0c0931fe 6328
+2021-09-09 17:01:27 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 6328
+2021-09-09 17:01:27 DEBUG TransferOperation:25 - Not enough money from accout 1ef038c3-787c-4549-97b5-7b1c0c0931fe 1919
+2021-09-09 17:01:27 DEBUG TransferGenerator:107 - transaction end 19 Thread-4
+2021-09-09 17:01:27 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 6129
+2021-09-09 17:01:27 DEBUG TransferOperation:36 - change money to 89226922-ec75-4591-b8fe-94d066ad7bb9 6129
+2021-09-09 17:01:27 DEBUG TransferGenerator:107 - transaction end 18 Thread-4
+2021-09-09 17:01:27 DEBUG TransferGenerator:107 - transaction end 19 Thread-3
+2021-09-09 17:01:28 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 3107
+2021-09-09 17:01:28 DEBUG TransferOperation:36 - change money to 1ef038c3-787c-4549-97b5-7b1c0c0931fe 3107
+2021-09-09 17:01:28 DEBUG TransferGenerator:107 - transaction end 17 Thread-4
+2021-09-09 17:01:29 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 6806
+2021-09-09 17:01:29 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 6806
+2021-09-09 17:01:29 DEBUG TransferGenerator:107 - transaction end 15 Thread-3
+2021-09-09 17:01:29 DEBUG TransferOperation:25 - Not enough money from accout 1ef038c3-787c-4549-97b5-7b1c0c0931fe 5026
+2021-09-09 17:01:29 DEBUG TransferGenerator:107 - transaction end 15 Thread-4
+2021-09-09 17:01:30 DEBUG TransferOperation:30 - change money from 89226922-ec75-4591-b8fe-94d066ad7bb9 973
+2021-09-09 17:01:30 DEBUG TransferOperation:30 - change money from 1ef038c3-787c-4549-97b5-7b1c0c0931fe 263
+2021-09-09 17:01:30 DEBUG TransferOperation:36 - change money to 89226922-ec75-4591-b8fe-94d066ad7bb9 263
+2021-09-09 17:01:30 DEBUG TransferGenerator:107 - transaction end 13 Thread-4
+2021-09-09 17:01:30 DEBUG TransferOperation:36 - change money to 7d01f0fe-6551-4989-bccc-82415db23f60 973
+2021-09-09 17:01:30 DEBUG TransferGenerator:107 - transaction end 13 Thread-3
+2021-09-09 17:01:32 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 2572
+2021-09-09 17:01:32 DEBUG TransferOperation:25 - Not enough money from accout 1ef038c3-787c-4549-97b5-7b1c0c0931fe 4763
+2021-09-09 17:01:32 DEBUG TransferGenerator:107 - transaction end 11 Thread-3
+2021-09-09 17:01:32 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 2572
+2021-09-09 17:01:32 DEBUG TransferGenerator:107 - transaction end 11 Thread-4
+2021-09-09 17:01:33 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 5928
+2021-09-09 17:01:33 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 5928
+2021-09-09 17:01:33 DEBUG TransferGenerator:107 - transaction end 10 Thread-3
+2021-09-09 17:01:33 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 7406
+2021-09-09 17:01:33 DEBUG TransferOperation:36 - change money to 89226922-ec75-4591-b8fe-94d066ad7bb9 7406
+2021-09-09 17:01:33 DEBUG TransferGenerator:107 - transaction end 8 Thread-4
+2021-09-09 17:01:33 DEBUG TransferOperation:25 - Not enough money from accout 1ef038c3-787c-4549-97b5-7b1c0c0931fe 4763
+2021-09-09 17:01:33 DEBUG TransferGenerator:107 - transaction end 8 Thread-3
+2021-09-09 17:01:35 DEBUG TransferOperation:30 - change money from 1ef038c3-787c-4549-97b5-7b1c0c0931fe 2794
+2021-09-09 17:01:35 DEBUG TransferOperation:30 - change money from 89226922-ec75-4591-b8fe-94d066ad7bb9 9884
+2021-09-09 17:01:35 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 9884
+2021-09-09 17:01:35 DEBUG TransferGenerator:107 - transaction end 6 Thread-3
+2021-09-09 17:01:35 DEBUG TransferOperation:36 - change money to 89226922-ec75-4591-b8fe-94d066ad7bb9 2794
+2021-09-09 17:01:35 DEBUG TransferGenerator:107 - transaction end 6 Thread-4
+2021-09-09 17:01:36 DEBUG TransferOperation:30 - change money from 7d01f0fe-6551-4989-bccc-82415db23f60 1612
+2021-09-09 17:01:36 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 1612
+2021-09-09 17:01:36 DEBUG TransferGenerator:107 - transaction end 4 Thread-3
+2021-09-09 17:01:36 DEBUG TransferOperation:30 - change money from 89226922-ec75-4591-b8fe-94d066ad7bb9 2425
+2021-09-09 17:01:36 DEBUG TransferOperation:30 - change money from 7d01f0fe-6551-4989-bccc-82415db23f60 1580
+2021-09-09 17:01:36 DEBUG TransferOperation:36 - change money to 1ef038c3-787c-4549-97b5-7b1c0c0931fe 1580
+2021-09-09 17:01:36 DEBUG TransferGenerator:107 - transaction end 3 Thread-4
+2021-09-09 17:01:36 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 5974
+2021-09-09 17:01:36 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 5974
+2021-09-09 17:01:36 DEBUG TransferGenerator:107 - transaction end 2 Thread-4
+2021-09-09 17:01:36 DEBUG TransferOperation:36 - change money to 7d01f0fe-6551-4989-bccc-82415db23f60 2425
+2021-09-09 17:01:36 DEBUG TransferGenerator:107 - transaction end 2 Thread-3
+2021-09-09 17:01:37 DEBUG TransferOperation:25 - Not enough money from accout 89226922-ec75-4591-b8fe-94d066ad7bb9 6645
+2021-09-09 17:01:37 DEBUG TransferGenerator:107 - transaction end 1 Thread-3
+2021-09-09 17:01:38 DEBUG TransferOperation:30 - change money from b3ea610e-9efd-441a-8f9b-17e13b03d0af 9089
+2021-09-09 17:01:38 DEBUG TransferOperation:36 - change money to b3ea610e-9efd-441a-8f9b-17e13b03d0af 9089
+2021-09-09 17:01:38 DEBUG TransferGenerator:107 - transaction end 0 Thread-4
+2021-09-09 17:01:40 DEBUG TransferGenerator:51 - 4 [Account [ID=89226922-ec75-4591-b8fe-94d066ad7bb9, Money=6645], Account [ID=7d01f0fe-6551-4989-bccc-82415db23f60, Money=16654], Account [ID=1ef038c3-787c-4549-97b5-7b1c0c0931fe, Money=3549], Account [ID=b3ea610e-9efd-441a-8f9b-17e13b03d0af, Money=13152]]
+2021-09-09 17:01:58 DEBUG TransferGenerator:35 - [Account [ID=005cb83f-3d75-41f8-bf77-f89df43553c1, Money=10000], Account [ID=037ecab1-5b14-49bb-a4a4-8449974556d8, Money=10000], Account [ID=3e2de7b4-5769-4512-bcee-f394530e87ad, Money=10000], Account [ID=3925de96-77d2-4fd4-a56c-986a3a89b735, Money=10000]]
+2021-09-09 17:01:59 DEBUG TransferGenerator:81 - transaction 29 Thread-3
+2021-09-09 17:01:59 DEBUG TransferOperation:30 - change money from 3925de96-77d2-4fd4-a56c-986a3a89b735 6627
+2021-09-09 17:01:59 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 6627
+2021-09-09 17:01:59 DEBUG TransferGenerator:81 - transaction 28 Thread-3
+2021-09-09 17:01:59 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 3341
+2021-09-09 17:01:59 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 3341
+2021-09-09 17:01:59 DEBUG TransferGenerator:81 - transaction 27 Thread-4
+2021-09-09 17:01:59 DEBUG TransferOperation:25 - Not enough money from accout 3925de96-77d2-4fd4-a56c-986a3a89b735 3373
+2021-09-09 17:02:01 DEBUG TransferGenerator:81 - transaction 26 Thread-3
+2021-09-09 17:02:01 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 5323
+2021-09-09 17:02:01 DEBUG TransferOperation:36 - change money to 037ecab1-5b14-49bb-a4a4-8449974556d8 5323
+2021-09-09 17:02:01 DEBUG TransferGenerator:81 - transaction 25 Thread-4
+2021-09-09 17:02:01 DEBUG TransferOperation:30 - change money from 037ecab1-5b14-49bb-a4a4-8449974556d8 9206
+2021-09-09 17:02:01 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 9206
+2021-09-09 17:02:02 DEBUG TransferGenerator:81 - transaction 24 Thread-4
+2021-09-09 17:02:02 DEBUG TransferGenerator:81 - transaction 23 Thread-3
+2021-09-09 17:02:02 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 5712
+2021-09-09 17:02:02 DEBUG TransferOperation:36 - change money to 3925de96-77d2-4fd4-a56c-986a3a89b735 5712
+2021-09-09 17:02:02 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 3539
+2021-09-09 17:02:02 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 3539
+2021-09-09 17:02:04 DEBUG TransferGenerator:81 - transaction 22 Thread-3
+2021-09-09 17:02:04 DEBUG TransferOperation:30 - change money from 037ecab1-5b14-49bb-a4a4-8449974556d8 1261
+2021-09-09 17:02:04 DEBUG TransferOperation:36 - change money to 037ecab1-5b14-49bb-a4a4-8449974556d8 1261
+2021-09-09 17:02:04 DEBUG TransferGenerator:81 - transaction 21 Thread-4
+2021-09-09 17:02:04 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 562
+2021-09-09 17:02:04 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 562
+2021-09-09 17:02:05 DEBUG TransferGenerator:81 - transaction 19 Thread-3
+2021-09-09 17:02:05 DEBUG TransferGenerator:81 - transaction 19 Thread-4
+2021-09-09 17:02:05 DEBUG TransferOperation:30 - change money from 3925de96-77d2-4fd4-a56c-986a3a89b735 3675
+2021-09-09 17:02:05 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 3675
+2021-09-09 17:02:05 DEBUG TransferOperation:25 - Not enough money from accout 3925de96-77d2-4fd4-a56c-986a3a89b735 5410
+2021-09-09 17:02:07 DEBUG TransferGenerator:81 - transaction 18 Thread-4
+2021-09-09 17:02:07 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 6127
+2021-09-09 17:02:07 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 6127
+2021-09-09 17:02:07 DEBUG TransferGenerator:81 - transaction 17 Thread-3
+2021-09-09 17:02:07 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 1207
+2021-09-09 17:02:07 DEBUG TransferOperation:36 - change money to 3925de96-77d2-4fd4-a56c-986a3a89b735 1207
+2021-09-09 17:02:08 DEBUG TransferGenerator:81 - transaction 16 Thread-3
+2021-09-09 17:02:08 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 1042
+2021-09-09 17:02:08 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 1042
+2021-09-09 17:02:08 DEBUG TransferGenerator:81 - transaction 15 Thread-3
+2021-09-09 17:02:08 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 4858
+2021-09-09 17:02:08 DEBUG TransferOperation:36 - change money to 037ecab1-5b14-49bb-a4a4-8449974556d8 4858
+2021-09-09 17:02:08 DEBUG TransferGenerator:81 - transaction 14 Thread-4
+2021-09-09 17:02:08 DEBUG TransferOperation:30 - change money from 037ecab1-5b14-49bb-a4a4-8449974556d8 6313
+2021-09-09 17:02:08 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 6313
+2021-09-09 17:02:10 DEBUG TransferGenerator:81 - transaction 13 Thread-4
+2021-09-09 17:02:10 DEBUG TransferGenerator:81 - transaction 12 Thread-3
+2021-09-09 17:02:10 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 4503
+2021-09-09 17:02:10 DEBUG TransferOperation:36 - change money to 037ecab1-5b14-49bb-a4a4-8449974556d8 4503
+2021-09-09 17:02:10 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 6317
+2021-09-09 17:02:10 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 6317
+2021-09-09 17:02:11 DEBUG TransferGenerator:81 - transaction 11 Thread-4
+2021-09-09 17:02:11 DEBUG TransferGenerator:81 - transaction 10 Thread-3
+2021-09-09 17:02:11 DEBUG TransferOperation:25 - Not enough money from accout 3e2de7b4-5769-4512-bcee-f394530e87ad 4192
+2021-09-09 17:02:11 DEBUG TransferOperation:30 - change money from 037ecab1-5b14-49bb-a4a4-8449974556d8 3
+2021-09-09 17:02:11 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 3
+2021-09-09 17:02:12 DEBUG TransferGenerator:81 - transaction 9 Thread-3
+2021-09-09 17:02:12 DEBUG TransferGenerator:81 - transaction 8 Thread-4
+2021-09-09 17:02:12 DEBUG TransferOperation:30 - change money from 3925de96-77d2-4fd4-a56c-986a3a89b735 3529
+2021-09-09 17:02:12 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 2454
+2021-09-09 17:02:12 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 2454
+2021-09-09 17:02:12 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 3529
+2021-09-09 17:02:13 DEBUG TransferGenerator:81 - transaction 7 Thread-4
+2021-09-09 17:02:13 DEBUG TransferOperation:30 - change money from 037ecab1-5b14-49bb-a4a4-8449974556d8 3679
+2021-09-09 17:02:13 DEBUG TransferOperation:36 - change money to 3e2de7b4-5769-4512-bcee-f394530e87ad 3679
+2021-09-09 17:02:13 DEBUG TransferGenerator:81 - transaction 6 Thread-4
+2021-09-09 17:02:13 DEBUG TransferGenerator:81 - transaction 5 Thread-3
+2021-09-09 17:02:13 DEBUG TransferOperation:25 - Not enough money from accout 037ecab1-5b14-49bb-a4a4-8449974556d8 5483
+2021-09-09 17:02:13 DEBUG TransferGenerator:81 - transaction 4 Thread-4
+2021-09-09 17:02:13 DEBUG TransferOperation:30 - change money from 3e2de7b4-5769-4512-bcee-f394530e87ad 7317
+2021-09-09 17:02:13 DEBUG TransferOperation:36 - change money to 037ecab1-5b14-49bb-a4a4-8449974556d8 7317
+2021-09-09 17:02:13 DEBUG TransferOperation:25 - Not enough money from accout 3925de96-77d2-4fd4-a56c-986a3a89b735 3088
+2021-09-09 17:02:14 DEBUG TransferGenerator:81 - transaction 3 Thread-4
+2021-09-09 17:02:14 DEBUG TransferOperation:25 - Not enough money from accout 3925de96-77d2-4fd4-a56c-986a3a89b735 3088
+2021-09-09 17:02:15 DEBUG TransferGenerator:81 - transaction 2 Thread-3
+2021-09-09 17:02:15 DEBUG TransferGenerator:81 - transaction 1 Thread-4
+2021-09-09 17:02:15 DEBUG TransferOperation:25 - Not enough money from accout 3925de96-77d2-4fd4-a56c-986a3a89b735 3088
+2021-09-09 17:02:15 DEBUG TransferOperation:30 - change money from 005cb83f-3d75-41f8-bf77-f89df43553c1 5172
+2021-09-09 17:02:15 DEBUG TransferOperation:36 - change money to 037ecab1-5b14-49bb-a4a4-8449974556d8 5172
+2021-09-09 17:02:16 DEBUG TransferGenerator:81 - transaction 0 Thread-3
+2021-09-09 17:02:16 DEBUG TransferOperation:30 - change money from 3925de96-77d2-4fd4-a56c-986a3a89b735 2376
+2021-09-09 17:02:16 DEBUG TransferOperation:36 - change money to 005cb83f-3d75-41f8-bf77-f89df43553c1 2376
+2021-09-09 17:02:18 DEBUG TransferGenerator:51 - 4 [Account [ID=005cb83f-3d75-41f8-bf77-f89df43553c1, Money=19684], Account [ID=037ecab1-5b14-49bb-a4a4-8449974556d8, Money=17972], Account [ID=3e2de7b4-5769-4512-bcee-f394530e87ad, Money=1632], Account [ID=3925de96-77d2-4fd4-a56c-986a3a89b735, Money=712]]
+2021-09-09 17:03:34 DEBUG TransferGenerator:35 - [Account [ID=caaa2651-e1b6-4efc-8353-69a046c05d23, Money=10000], Account [ID=fa5593e7-be92-4782-a21c-136350c48ddd, Money=10000], Account [ID=256d8b66-9587-47bd-bb03-532f4768ec5c, Money=10000], Account [ID=79874097-4e98-4eb5-a5a2-b4d907830868, Money=10000]]
+2021-09-09 17:03:35 DEBUG TransferGenerator:81 - transaction 28 Thread-3
+2021-09-09 17:03:35 DEBUG TransferGenerator:81 - transaction 28 Thread-4
+2021-09-09 17:03:35 DEBUG TransferOperation:30 - change money from 79874097-4e98-4eb5-a5a2-b4d907830868 7926
+2021-09-09 17:03:35 DEBUG TransferOperation:30 - change money from caaa2651-e1b6-4efc-8353-69a046c05d23 5382
+2021-09-09 17:03:35 DEBUG TransferOperation:36 - change money to 256d8b66-9587-47bd-bb03-532f4768ec5c 5382
+2021-09-09 17:03:35 DEBUG TransferOperation:36 - change money to caaa2651-e1b6-4efc-8353-69a046c05d23 7926
+2021-09-09 17:03:36 DEBUG TransferGenerator:81 - transaction 27 Thread-4
+2021-09-09 17:03:36 DEBUG TransferGenerator:81 - transaction 26 Thread-3
+2021-09-09 17:03:36 DEBUG TransferOperation:30 - change money from caaa2651-e1b6-4efc-8353-69a046c05d23 3445
+2021-09-09 17:03:36 DEBUG TransferOperation:36 - change money to fa5593e7-be92-4782-a21c-136350c48ddd 3445
+2021-09-09 17:03:36 DEBUG TransferGenerator:81 - transaction 25 Thread-4
+2021-09-09 17:03:36 DEBUG TransferOperation:30 - change money from 256d8b66-9587-47bd-bb03-532f4768ec5c 5668
+2021-09-09 17:03:36 DEBUG TransferOperation:36 - change money to caaa2651-e1b6-4efc-8353-69a046c05d23 5668
+2021-09-09 17:03:36 DEBUG TransferOperation:30 - change money from fa5593e7-be92-4782-a21c-136350c48ddd 4660
+2021-09-09 17:03:36 DEBUG TransferOperation:36 - change money to fa5593e7-be92-4782-a21c-136350c48ddd 4660
+2021-09-09 17:03:36 DEBUG TransferGenerator:81 - transaction 24 Thread-4
+2021-09-09 17:03:36 DEBUG TransferOperation:30 - change money from 79874097-4e98-4eb5-a5a2-b4d907830868 484
+2021-09-09 17:03:36 DEBUG TransferOperation:36 - change money to caaa2651-e1b6-4efc-8353-69a046c05d23 484
+2021-09-09 17:04:02 DEBUG TransferGenerator:35 - [Account [ID=51744e49-530f-4acf-b4e1-d8f0fee5b76c, Money=10000], Account [ID=517e5657-9ed1-4b26-8d8f-ffe5361dc737, Money=10000], Account [ID=0db28728-7ff1-48fe-bea6-44e0ee469193, Money=10000], Account [ID=2eadecb2-c980-4c74-89d7-26aea20209ac, Money=10000]]
+2021-09-09 17:04:04 DEBUG TransferGenerator:81 - transaction 28 Thread-4
+2021-09-09 17:04:04 DEBUG TransferGenerator:81 - transaction 28 Thread-3
+2021-09-09 17:04:04 DEBUG TransferOperation:30 - change money from 2eadecb2-c980-4c74-89d7-26aea20209ac 9794
+2021-09-09 17:04:04 DEBUG TransferOperation:36 - change money to 517e5657-9ed1-4b26-8d8f-ffe5361dc737 9794
+2021-09-09 17:04:04 DEBUG TransferOperation:30 - change money from 51744e49-530f-4acf-b4e1-d8f0fee5b76c 9652
+2021-09-09 17:04:04 DEBUG TransferOperation:36 - change money to 2eadecb2-c980-4c74-89d7-26aea20209ac 9652
+2021-09-09 17:04:04 DEBUG TransferGenerator:81 - transaction 27 Thread-3
+2021-09-09 17:04:04 DEBUG TransferOperation:30 - change money from 517e5657-9ed1-4b26-8d8f-ffe5361dc737 6986
+2021-09-09 17:04:04 DEBUG TransferOperation:36 - change money to 51744e49-530f-4acf-b4e1-d8f0fee5b76c 6986
+2021-09-09 17:04:05 DEBUG TransferGenerator:81 - transaction 26 Thread-4
+2021-09-09 17:04:05 DEBUG TransferOperation:30 - change money from 517e5657-9ed1-4b26-8d8f-ffe5361dc737 8211
+2021-09-09 17:04:05 DEBUG TransferOperation:36 - change money to 2eadecb2-c980-4c74-89d7-26aea20209ac 8211
+2021-09-09 17:04:05 DEBUG TransferGenerator:81 - transaction 25 Thread-3
+2021-09-09 17:04:05 DEBUG TransferOperation:30 - change money from 51744e49-530f-4acf-b4e1-d8f0fee5b76c 1712
+2021-09-09 17:04:05 DEBUG TransferOperation:36 - change money to 0db28728-7ff1-48fe-bea6-44e0ee469193 1712
+2021-09-09 17:04:06 DEBUG TransferGenerator:81 - transaction 24 Thread-3
+2021-09-09 17:04:06 DEBUG TransferOperation:25 - Not enough money from accout 51744e49-530f-4acf-b4e1-d8f0fee5b76c 5622
+2021-09-09 17:04:16 DEBUG TransferGenerator:35 - [Account [ID=a6a66abb-9f2f-4cdd-9ca4-170b7a4a1719, Money=10000], Account [ID=83226f68-af00-4abb-953e-069ad68e1cb2, Money=10000], Account [ID=654e6b11-4d09-4ae4-9621-29bbd4bc3b5f, Money=10000], Account [ID=3b8983b2-9af4-45c0-b374-eb7a233c522f, Money=10000]]
+2021-09-09 17:04:17 DEBUG TransferGenerator:81 - transaction 28 Thread-4
+2021-09-09 17:04:17 DEBUG TransferGenerator:81 - transaction 28 Thread-3
+2021-09-09 17:04:17 DEBUG TransferOperation:30 - change money from a6a66abb-9f2f-4cdd-9ca4-170b7a4a1719 7523
+2021-09-09 17:04:17 DEBUG TransferOperation:30 - change money from 83226f68-af00-4abb-953e-069ad68e1cb2 5072
+2021-09-09 17:04:17 DEBUG TransferOperation:36 - change money to 654e6b11-4d09-4ae4-9621-29bbd4bc3b5f 5072
+2021-09-09 17:04:17 DEBUG TransferOperation:36 - change money to a6a66abb-9f2f-4cdd-9ca4-170b7a4a1719 7523
+2021-09-09 17:04:18 DEBUG TransferGenerator:81 - transaction 27 Thread-3
+2021-09-09 17:04:18 DEBUG TransferOperation:30 - change money from 83226f68-af00-4abb-953e-069ad68e1cb2 1832
+2021-09-09 17:04:18 DEBUG TransferOperation:36 - change money to 3b8983b2-9af4-45c0-b374-eb7a233c522f 1832
+2021-09-09 17:04:19 DEBUG TransferGenerator:81 - transaction 26 Thread-4
+2021-09-09 17:04:19 DEBUG TransferOperation:30 - change money from a6a66abb-9f2f-4cdd-9ca4-170b7a4a1719 941
+2021-09-09 17:04:19 DEBUG TransferOperation:36 - change money to 83226f68-af00-4abb-953e-069ad68e1cb2 941
+2021-09-09 17:04:19 DEBUG TransferGenerator:81 - transaction 24 Thread-4
+2021-09-09 17:04:19 DEBUG TransferOperation:30 - change money from 3b8983b2-9af4-45c0-b374-eb7a233c522f 6347
+2021-09-09 17:04:19 DEBUG TransferOperation:36 - change money to 83226f68-af00-4abb-953e-069ad68e1cb2 6347
+2021-09-09 17:04:19 DEBUG TransferGenerator:81 - transaction 25 Thread-3
+2021-09-09 17:04:19 DEBUG TransferOperation:25 - Not enough money from accout 3b8983b2-9af4-45c0-b374-eb7a233c522f 5485
+2021-09-09 17:04:48 DEBUG TransferGenerator:35 - [Account [ID=b1dd77fc-d739-48f4-b9e9-f5c4091f01b9, Money=10000], Account [ID=dd0cf573-f3a5-444a-9c3e-70f169bbef64, Money=10000], Account [ID=0ad4f1a1-416e-41ac-b2da-3fde97dad80d, Money=10000], Account [ID=e9ef9087-6d39-4b13-ba8f-061fee39fb2f, Money=10000]]
+2021-09-09 17:04:50 DEBUG TransferGenerator:81 - transaction 29 Thread-3
+2021-09-09 17:04:50 DEBUG TransferGenerator:81 - transaction 28 Thread-4
+2021-09-09 17:04:50 DEBUG TransferOperation:30 - change money from 0ad4f1a1-416e-41ac-b2da-3fde97dad80d 9988
+2021-09-09 17:04:50 DEBUG TransferOperation:30 - change money from b1dd77fc-d739-48f4-b9e9-f5c4091f01b9 3929
+2021-09-09 17:04:50 DEBUG TransferOperation:36 - change money to 0ad4f1a1-416e-41ac-b2da-3fde97dad80d 3929
+2021-09-09 17:04:50 DEBUG TransferOperation:36 - change money to b1dd77fc-d739-48f4-b9e9-f5c4091f01b9 9988
+2021-09-09 17:06:17 DEBUG TransferGenerator:35 - [Account [ID=19aeaa49-20f5-48e8-9696-679fe9534dec, Money=10000], Account [ID=d3543bf7-ef62-48a1-aae7-5d2ce58aca2b, Money=10000], Account [ID=f4aa682c-f588-4627-839d-fa5a4f51986a, Money=10000], Account [ID=e568f77e-92d2-41a6-a5b6-98b92bd1218f, Money=10000]]
+2021-09-09 17:06:18 DEBUG TransferGenerator:81 - transaction 754406538 Thread-3
+2021-09-09 17:06:18 DEBUG TransferGenerator:81 - transaction 579325283 Thread-4
+2021-09-09 17:06:18 DEBUG TransferOperation:30 - change money from f4aa682c-f588-4627-839d-fa5a4f51986a 6899
+2021-09-09 17:06:18 DEBUG TransferOperation:30 - change money from d3543bf7-ef62-48a1-aae7-5d2ce58aca2b 7360
+2021-09-09 17:06:18 DEBUG TransferOperation:36 - change money to f4aa682c-f588-4627-839d-fa5a4f51986a 7360
+2021-09-09 17:06:18 DEBUG TransferOperation:36 - change money to d3543bf7-ef62-48a1-aae7-5d2ce58aca2b 6899
+2021-09-09 17:06:20 DEBUG TransferGenerator:81 - transaction 742401859 Thread-4
+2021-09-09 17:06:20 DEBUG TransferOperation:30 - change money from f4aa682c-f588-4627-839d-fa5a4f51986a 4015
+2021-09-09 17:06:20 DEBUG TransferOperation:36 - change money to f4aa682c-f588-4627-839d-fa5a4f51986a 4015
+2021-09-09 17:06:20 DEBUG TransferGenerator:81 - transaction 638533626 Thread-3
+2021-09-09 17:06:20 DEBUG TransferOperation:30 - change money from f4aa682c-f588-4627-839d-fa5a4f51986a 9176
+2021-09-09 17:06:20 DEBUG TransferOperation:36 - change money to 19aeaa49-20f5-48e8-9696-679fe9534dec 9176
+2021-09-09 17:06:22 DEBUG TransferGenerator:81 - transaction 1661842783 Thread-4
+2021-09-09 17:06:22 DEBUG TransferGenerator:81 - transaction 1661842783 Thread-3
+2021-09-09 17:06:22 DEBUG TransferOperation:25 - Not enough money from accout d3543bf7-ef62-48a1-aae7-5d2ce58aca2b 9539
+2021-09-09 17:06:22 DEBUG TransferOperation:30 - change money from e568f77e-92d2-41a6-a5b6-98b92bd1218f 6742
+2021-09-09 17:06:22 DEBUG TransferOperation:36 - change money to f4aa682c-f588-4627-839d-fa5a4f51986a 6742
+2021-09-09 17:06:24 DEBUG TransferGenerator:81 - transaction 1967713968 Thread-3
+2021-09-09 17:06:24 DEBUG TransferOperation:30 - change money from 19aeaa49-20f5-48e8-9696-679fe9534dec 9517
+2021-09-09 17:06:24 DEBUG TransferOperation:36 - change money to e568f77e-92d2-41a6-a5b6-98b92bd1218f 9517
+2021-09-09 17:06:24 DEBUG TransferGenerator:81 - transaction 163588250 Thread-4
+2021-09-09 17:06:24 DEBUG TransferOperation:30 - change money from e568f77e-92d2-41a6-a5b6-98b92bd1218f 5709
+2021-09-09 17:06:24 DEBUG TransferOperation:36 - change money to f4aa682c-f588-4627-839d-fa5a4f51986a 5709
+2021-09-09 17:06:25 DEBUG TransferGenerator:81 - transaction 1378137314 Thread-3
+2021-09-09 17:06:25 DEBUG TransferOperation:30 - change money from f4aa682c-f588-4627-839d-fa5a4f51986a 6878
+2021-09-09 17:06:25 DEBUG TransferOperation:36 - change money to d3543bf7-ef62-48a1-aae7-5d2ce58aca2b 6878
+2021-09-09 17:06:25 DEBUG TransferGenerator:81 - transaction 223531575 Thread-4
+2021-09-09 17:06:25 DEBUG TransferOperation:30 - change money from d3543bf7-ef62-48a1-aae7-5d2ce58aca2b 3482
+2021-09-09 17:06:25 DEBUG TransferOperation:36 - change money to d3543bf7-ef62-48a1-aae7-5d2ce58aca2b 3482
+2021-09-09 17:06:38 DEBUG TransferGenerator:35 - [Account [ID=c14d8b9f-d81c-4609-a67e-c6b88d37df08, Money=10000], Account [ID=60a4a797-1f85-4d0b-80ba-604b48eb2f52, Money=10000], Account [ID=c5ac4ad6-c0b8-4c6e-b251-d1af5a150794, Money=10000], Account [ID=06d6829e-ed28-4361-bf06-d5880e0b2833, Money=10000]]
+2021-09-09 17:06:40 DEBUG TransferGenerator:81 - transaction 764551546 Thread-3
+2021-09-09 17:06:40 DEBUG TransferGenerator:81 - transaction 764551546 Thread-4
+2021-09-09 17:06:40 DEBUG TransferOperation:30 - change money from 06d6829e-ed28-4361-bf06-d5880e0b2833 8094
+2021-09-09 17:06:40 DEBUG TransferOperation:36 - change money to 06d6829e-ed28-4361-bf06-d5880e0b2833 8094
+2021-09-09 17:06:40 DEBUG TransferOperation:30 - change money from 60a4a797-1f85-4d0b-80ba-604b48eb2f52 4845
+2021-09-09 17:06:40 DEBUG TransferOperation:36 - change money to c5ac4ad6-c0b8-4c6e-b251-d1af5a150794 4845
+2021-09-09 17:06:42 DEBUG TransferGenerator:81 - transaction 764551546 Thread-4
+2021-09-09 17:06:42 DEBUG TransferOperation:25 - Not enough money from accout 60a4a797-1f85-4d0b-80ba-604b48eb2f52 5155
+2021-09-09 17:06:42 DEBUG TransferGenerator:81 - transaction 764551546 Thread-3
+2021-09-09 17:06:42 DEBUG TransferOperation:25 - Not enough money from accout 60a4a797-1f85-4d0b-80ba-604b48eb2f52 5155
+2021-09-09 17:07:47 DEBUG TransferGenerator:37 - [Account [ID=d9ce8f93-681a-4b76-b779-1466e0515c33, Money=10000], Account [ID=c37cbf2a-980b-4e5a-a2ac-e786445c0e5e, Money=10000], Account [ID=3618c465-3b1a-4fd6-b4a4-df2ade75c8a6, Money=10000], Account [ID=6932c4cc-4969-4a67-819e-f9d02aaf7606, Money=10000]]
+2021-09-09 17:07:48 DEBUG TransferGenerator:83 - transaction 390514885 Thread-4
+2021-09-09 17:07:48 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 4057
+2021-09-09 17:07:48 DEBUG TransferOperation:36 - change money to 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 4057
+2021-09-09 17:07:48 DEBUG TransferGenerator:83 - transaction 499033013 Thread-4
+2021-09-09 17:07:48 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 6310
+2021-09-09 17:07:48 DEBUG TransferOperation:36 - change money to c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 6310
+2021-09-09 17:07:49 DEBUG TransferGenerator:83 - transaction 40193091 Thread-3
+2021-09-09 17:07:49 DEBUG TransferOperation:30 - change money from 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 2215
+2021-09-09 17:07:49 DEBUG TransferOperation:36 - change money to 6932c4cc-4969-4a67-819e-f9d02aaf7606 2215
+2021-09-09 17:07:49 DEBUG TransferGenerator:83 - transaction 1488731750 Thread-4
+2021-09-09 17:07:49 DEBUG TransferOperation:30 - change money from 6932c4cc-4969-4a67-819e-f9d02aaf7606 9878
+2021-09-09 17:07:49 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 9878
+2021-09-09 17:07:49 DEBUG TransferGenerator:83 - transaction 211989119 Thread-3
+2021-09-09 17:07:49 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 5506
+2021-09-09 17:07:49 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 5506
+2021-09-09 17:07:50 DEBUG TransferGenerator:83 - transaction 501055852 Thread-3
+2021-09-09 17:07:50 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 7448
+2021-09-09 17:07:50 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 7448
+2021-09-09 17:07:50 DEBUG TransferGenerator:83 - transaction 2040382804 Thread-4
+2021-09-09 17:07:50 DEBUG TransferOperation:25 - Not enough money from accout c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 4805
+2021-09-09 17:07:52 DEBUG TransferGenerator:83 - transaction 766527243 Thread-3
+2021-09-09 17:07:52 DEBUG TransferGenerator:83 - transaction 1764632038 Thread-4
+2021-09-09 17:07:52 DEBUG TransferOperation:30 - change money from 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 3753
+2021-09-09 17:07:52 DEBUG TransferOperation:36 - change money to c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 3753
+2021-09-09 17:07:52 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 6520
+2021-09-09 17:07:52 DEBUG TransferOperation:36 - change money to 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 6520
+2021-09-09 17:07:53 DEBUG TransferGenerator:83 - transaction 1341495215 Thread-3
+2021-09-09 17:07:53 DEBUG TransferOperation:25 - Not enough money from accout 6932c4cc-4969-4a67-819e-f9d02aaf7606 2337
+2021-09-09 17:07:53 DEBUG TransferGenerator:83 - transaction 31817853 Thread-4
+2021-09-09 17:07:53 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 3452
+2021-09-09 17:07:53 DEBUG TransferOperation:36 - change money to c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 3452
+2021-09-09 17:07:53 DEBUG TransferGenerator:83 - transaction 949207337 Thread-4
+2021-09-09 17:07:53 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 5316
+2021-09-09 17:07:53 DEBUG TransferOperation:36 - change money to 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 5316
+2021-09-09 17:07:54 DEBUG TransferGenerator:83 - transaction 791876618 Thread-4
+2021-09-09 17:07:54 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 2593
+2021-09-09 17:07:54 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 2593
+2021-09-09 17:07:55 DEBUG TransferGenerator:83 - transaction 2013175999 Thread-3
+2021-09-09 17:07:55 DEBUG TransferOperation:30 - change money from 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 836
+2021-09-09 17:07:55 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 836
+2021-09-09 17:07:55 DEBUG TransferGenerator:83 - transaction 925500703 Thread-4
+2021-09-09 17:07:55 DEBUG TransferOperation:30 - change money from 6932c4cc-4969-4a67-819e-f9d02aaf7606 875
+2021-09-09 17:07:55 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 875
+2021-09-09 17:07:55 DEBUG TransferGenerator:83 - transaction 450989551 Thread-4
+2021-09-09 17:07:55 DEBUG TransferOperation:30 - change money from 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 541
+2021-09-09 17:07:55 DEBUG TransferOperation:36 - change money to 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 541
+2021-09-09 17:07:56 DEBUG TransferGenerator:83 - transaction 1021156627 Thread-4
+2021-09-09 17:07:56 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 1808
+2021-09-09 17:07:56 DEBUG TransferOperation:36 - change money to 6932c4cc-4969-4a67-819e-f9d02aaf7606 1808
+2021-09-09 17:07:56 DEBUG TransferGenerator:83 - transaction 114919885 Thread-3
+2021-09-09 17:07:56 DEBUG TransferOperation:30 - change money from 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 7197
+2021-09-09 17:07:56 DEBUG TransferOperation:36 - change money to c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 7197
+2021-09-09 17:07:58 DEBUG TransferGenerator:83 - transaction 200891846 Thread-4
+2021-09-09 17:07:58 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 9731
+2021-09-09 17:07:58 DEBUG TransferOperation:36 - change money to c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 9731
+2021-09-09 17:07:58 DEBUG TransferGenerator:83 - transaction 704519682 Thread-3
+2021-09-09 17:07:58 DEBUG TransferOperation:25 - Not enough money from accout 6932c4cc-4969-4a67-819e-f9d02aaf7606 3270
+2021-09-09 17:07:59 DEBUG TransferGenerator:83 - transaction 1247128701 Thread-3
+2021-09-09 17:07:59 DEBUG TransferOperation:25 - Not enough money from accout 6932c4cc-4969-4a67-819e-f9d02aaf7606 3270
+2021-09-09 17:07:59 DEBUG TransferGenerator:83 - transaction 1822204763 Thread-4
+2021-09-09 17:07:59 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 9438
+2021-09-09 17:07:59 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 9438
+2021-09-09 17:08:01 DEBUG TransferGenerator:83 - transaction 1219233488 Thread-3
+2021-09-09 17:08:01 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 3561
+2021-09-09 17:08:01 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 3561
+2021-09-09 17:08:01 DEBUG TransferGenerator:83 - transaction 2047137234 Thread-4
+2021-09-09 17:08:01 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 3823
+2021-09-09 17:08:01 DEBUG TransferOperation:36 - change money to 6932c4cc-4969-4a67-819e-f9d02aaf7606 3823
+2021-09-09 17:08:03 DEBUG TransferGenerator:83 - transaction 711060100 Thread-4
+2021-09-09 17:08:03 DEBUG TransferOperation:30 - change money from c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 4732
+2021-09-09 17:08:03 DEBUG TransferOperation:36 - change money to 6932c4cc-4969-4a67-819e-f9d02aaf7606 4732
+2021-09-09 17:08:03 DEBUG TransferGenerator:83 - transaction 49379817 Thread-3
+2021-09-09 17:08:03 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 8621
+2021-09-09 17:08:03 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 8621
+2021-09-09 17:08:04 DEBUG TransferGenerator:83 - transaction 1537632699 Thread-3
+2021-09-09 17:08:04 DEBUG TransferOperation:30 - change money from 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 5533
+2021-09-09 17:08:04 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 5533
+2021-09-09 17:08:04 DEBUG TransferGenerator:83 - transaction 1807193443 Thread-4
+2021-09-09 17:08:04 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 6780
+2021-09-09 17:08:04 DEBUG TransferOperation:36 - change money to c37cbf2a-980b-4e5a-a2ac-e786445c0e5e 6780
+2021-09-09 17:08:06 DEBUG TransferGenerator:83 - transaction 1656255797 Thread-4
+2021-09-09 17:08:06 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 8107
+2021-09-09 17:08:06 DEBUG TransferOperation:36 - change money to d9ce8f93-681a-4b76-b779-1466e0515c33 8107
+2021-09-09 17:08:06 DEBUG TransferGenerator:83 - transaction 1014431990 Thread-3
+2021-09-09 17:08:06 DEBUG TransferOperation:30 - change money from d9ce8f93-681a-4b76-b779-1466e0515c33 5242
+2021-09-09 17:08:06 DEBUG TransferOperation:36 - change money to 3618c465-3b1a-4fd6-b4a4-df2ade75c8a6 5242
+2021-09-09 17:08:07 DEBUG TransferGenerator:53 - 4 [Account [ID=d9ce8f93-681a-4b76-b779-1466e0515c33, Money=6266], Account [ID=c37cbf2a-980b-4e5a-a2ac-e786445c0e5e, Money=10308], Account [ID=3618c465-3b1a-4fd6-b4a4-df2ade75c8a6, Money=11601], Account [ID=6932c4cc-4969-4a67-819e-f9d02aaf7606, Money=11825]]
+2021-09-09 17:08:10 DEBUG TransferGenerator:37 - [Account [ID=2954fcb9-0418-4ec5-a785-040d33f54dee, Money=10000], Account [ID=589406ef-83ff-466a-ab6d-da802ad34b22, Money=10000], Account [ID=4c44c9e4-f9e1-447e-b2b5-eda96c2f12da, Money=10000], Account [ID=c0af226f-e1ec-4608-a67e-060a86e477ef, Money=10000]]
+2021-09-09 17:08:12 DEBUG TransferGenerator:83 - transaction 29 Thread-3
+2021-09-09 17:08:12 DEBUG TransferGenerator:83 - transaction 28 Thread-4
+2021-09-09 17:08:12 DEBUG TransferOperation:30 - change money from c0af226f-e1ec-4608-a67e-060a86e477ef 5070
+2021-09-09 17:08:12 DEBUG TransferOperation:36 - change money to 2954fcb9-0418-4ec5-a785-040d33f54dee 5070
+2021-09-09 17:08:12 DEBUG TransferOperation:30 - change money from c0af226f-e1ec-4608-a67e-060a86e477ef 327
+2021-09-09 17:08:12 DEBUG TransferOperation:36 - change money to c0af226f-e1ec-4608-a67e-060a86e477ef 327
+2021-09-09 17:08:13 DEBUG TransferGenerator:83 - transaction 27 Thread-3
+2021-09-09 17:08:13 DEBUG TransferOperation:30 - change money from 589406ef-83ff-466a-ab6d-da802ad34b22 905
+2021-09-09 17:08:13 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 905
+2021-09-09 17:08:13 DEBUG TransferGenerator:83 - transaction 26 Thread-4
+2021-09-09 17:08:13 DEBUG TransferOperation:30 - change money from c0af226f-e1ec-4608-a67e-060a86e477ef 2379
+2021-09-09 17:08:13 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 2379
+2021-09-09 17:08:14 DEBUG TransferGenerator:83 - transaction 25 Thread-3
+2021-09-09 17:08:14 DEBUG TransferOperation:30 - change money from 589406ef-83ff-466a-ab6d-da802ad34b22 443
+2021-09-09 17:08:14 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 443
+2021-09-09 17:08:15 DEBUG TransferGenerator:83 - transaction 24 Thread-3
+2021-09-09 17:08:15 DEBUG TransferGenerator:83 - transaction 23 Thread-4
+2021-09-09 17:08:15 DEBUG TransferOperation:30 - change money from 2954fcb9-0418-4ec5-a785-040d33f54dee 6668
+2021-09-09 17:08:15 DEBUG TransferOperation:36 - change money to 589406ef-83ff-466a-ab6d-da802ad34b22 6668
+2021-09-09 17:08:15 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 1679
+2021-09-09 17:08:15 DEBUG TransferOperation:36 - change money to 589406ef-83ff-466a-ab6d-da802ad34b22 1679
+2021-09-09 17:08:16 DEBUG TransferGenerator:83 - transaction 22 Thread-3
+2021-09-09 17:08:16 DEBUG TransferOperation:30 - change money from 2954fcb9-0418-4ec5-a785-040d33f54dee 5840
+2021-09-09 17:08:16 DEBUG TransferOperation:36 - change money to 589406ef-83ff-466a-ab6d-da802ad34b22 5840
+2021-09-09 17:08:16 DEBUG TransferGenerator:83 - transaction 21 Thread-3
+2021-09-09 17:08:16 DEBUG TransferGenerator:83 - transaction 20 Thread-4
+2021-09-09 17:08:16 DEBUG TransferOperation:25 - Not enough money from accout c0af226f-e1ec-4608-a67e-060a86e477ef 2551
+2021-09-09 17:08:16 DEBUG TransferOperation:25 - Not enough money from accout 2954fcb9-0418-4ec5-a785-040d33f54dee 2562
+2021-09-09 17:08:17 DEBUG TransferGenerator:83 - transaction 19 Thread-3
+2021-09-09 17:08:17 DEBUG TransferOperation:30 - change money from c0af226f-e1ec-4608-a67e-060a86e477ef 1058
+2021-09-09 17:08:17 DEBUG TransferOperation:36 - change money to 2954fcb9-0418-4ec5-a785-040d33f54dee 1058
+2021-09-09 17:08:18 DEBUG TransferGenerator:83 - transaction 18 Thread-3
+2021-09-09 17:08:18 DEBUG TransferOperation:30 - change money from 2954fcb9-0418-4ec5-a785-040d33f54dee 2017
+2021-09-09 17:08:18 DEBUG TransferOperation:36 - change money to 2954fcb9-0418-4ec5-a785-040d33f54dee 2017
+2021-09-09 17:08:18 DEBUG TransferGenerator:83 - transaction 17 Thread-4
+2021-09-09 17:08:18 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 885
+2021-09-09 17:08:18 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 885
+2021-09-09 17:08:19 DEBUG TransferGenerator:83 - transaction 16 Thread-3
+2021-09-09 17:08:19 DEBUG TransferGenerator:83 - transaction 15 Thread-4
+2021-09-09 17:08:19 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 470
+2021-09-09 17:08:19 DEBUG TransferOperation:36 - change money to 589406ef-83ff-466a-ab6d-da802ad34b22 470
+2021-09-09 17:08:19 DEBUG TransferOperation:25 - Not enough money from accout c0af226f-e1ec-4608-a67e-060a86e477ef 1493
+2021-09-09 17:08:21 DEBUG TransferGenerator:83 - transaction 14 Thread-3
+2021-09-09 17:08:21 DEBUG TransferOperation:25 - Not enough money from accout 2954fcb9-0418-4ec5-a785-040d33f54dee 3620
+2021-09-09 17:08:21 DEBUG TransferGenerator:83 - transaction 13 Thread-4
+2021-09-09 17:08:21 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 123
+2021-09-09 17:08:21 DEBUG TransferOperation:36 - change money to 2954fcb9-0418-4ec5-a785-040d33f54dee 123
+2021-09-09 17:08:22 DEBUG TransferGenerator:83 - transaction 12 Thread-3
+2021-09-09 17:08:22 DEBUG TransferGenerator:83 - transaction 11 Thread-4
+2021-09-09 17:08:22 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 298
+2021-09-09 17:08:22 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 298
+2021-09-09 17:08:22 DEBUG TransferOperation:25 - Not enough money from accout 2954fcb9-0418-4ec5-a785-040d33f54dee 3743
+2021-09-09 17:08:23 DEBUG TransferGenerator:83 - transaction 10 Thread-4
+2021-09-09 17:08:23 DEBUG TransferOperation:30 - change money from 2954fcb9-0418-4ec5-a785-040d33f54dee 1566
+2021-09-09 17:08:23 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 1566
+2021-09-09 17:08:24 DEBUG TransferGenerator:83 - transaction 9 Thread-4
+2021-09-09 17:08:24 DEBUG TransferOperation:30 - change money from 589406ef-83ff-466a-ab6d-da802ad34b22 629
+2021-09-09 17:08:24 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 629
+2021-09-09 17:08:24 DEBUG TransferGenerator:83 - transaction 8 Thread-3
+2021-09-09 17:08:24 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 9092
+2021-09-09 17:08:24 DEBUG TransferOperation:36 - change money to c0af226f-e1ec-4608-a67e-060a86e477ef 9092
+2021-09-09 17:08:26 DEBUG TransferGenerator:83 - transaction 7 Thread-3
+2021-09-09 17:08:26 DEBUG TransferGenerator:83 - transaction 6 Thread-4
+2021-09-09 17:08:26 DEBUG TransferOperation:25 - Not enough money from accout 2954fcb9-0418-4ec5-a785-040d33f54dee 2177
+2021-09-09 17:08:26 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 3849
+2021-09-09 17:08:26 DEBUG TransferOperation:36 - change money to 589406ef-83ff-466a-ab6d-da802ad34b22 3849
+2021-09-09 17:08:27 DEBUG TransferGenerator:83 - transaction 5 Thread-3
+2021-09-09 17:08:27 DEBUG TransferOperation:30 - change money from 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 671
+2021-09-09 17:08:27 DEBUG TransferOperation:36 - change money to 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 671
+2021-09-09 17:08:27 DEBUG TransferGenerator:83 - transaction 4 Thread-4
+2021-09-09 17:08:27 DEBUG TransferOperation:25 - Not enough money from accout 4c44c9e4-f9e1-447e-b2b5-eda96c2f12da 709
+2021-09-09 17:08:29 DEBUG TransferGenerator:83 - transaction 3 Thread-3
+2021-09-09 17:08:29 DEBUG TransferOperation:30 - change money from 589406ef-83ff-466a-ab6d-da802ad34b22 5694
+2021-09-09 17:08:29 DEBUG TransferOperation:36 - change money to 589406ef-83ff-466a-ab6d-da802ad34b22 5694
+2021-09-09 17:08:29 DEBUG TransferGenerator:83 - transaction 2 Thread-4
+2021-09-09 17:08:29 DEBUG TransferGenerator:83 - transaction 1 Thread-3
+2021-09-09 17:08:29 DEBUG TransferOperation:30 - change money from c0af226f-e1ec-4608-a67e-060a86e477ef 7381
+2021-09-09 17:08:29 DEBUG TransferOperation:36 - change money to c0af226f-e1ec-4608-a67e-060a86e477ef 7381
+2021-09-09 17:08:29 DEBUG TransferOperation:25 - Not enough money from accout 2954fcb9-0418-4ec5-a785-040d33f54dee 2177
+2021-09-09 17:08:31 DEBUG TransferGenerator:83 - transaction 0 Thread-4
+2021-09-09 17:08:31 DEBUG TransferOperation:25 - Not enough money from accout 2954fcb9-0418-4ec5-a785-040d33f54dee 2177
+2021-09-09 17:08:32 DEBUG TransferGenerator:53 - 4 [Account [ID=2954fcb9-0418-4ec5-a785-040d33f54dee, Money=2177], Account [ID=589406ef-83ff-466a-ab6d-da802ad34b22, Money=26529], Account [ID=4c44c9e4-f9e1-447e-b2b5-eda96c2f12da, Money=709], Account [ID=c0af226f-e1ec-4608-a67e-060a86e477ef, Money=10585]]
+2021-09-09 17:10:22 DEBUG TransferGenerator:31 - [Account [ID=30b32565-1214-446a-8968-14db872d96fc, Money=10000], Account [ID=ef732290-d173-4640-8e29-99a815c5b211, Money=10000], Account [ID=ba023589-c31c-4b1f-86ca-f413696a222f, Money=10000], Account [ID=82a61c80-8a10-4e00-a6ad-ed72b02ed68c, Money=10000]]
+2021-09-09 17:10:24 DEBUG TransferOperation:30 - change money from ef732290-d173-4640-8e29-99a815c5b211 1153
+2021-09-09 17:10:24 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 1153
+2021-09-09 17:10:24 DEBUG TransferOperation:30 - change money from ef732290-d173-4640-8e29-99a815c5b211 461
+2021-09-09 17:10:24 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 461
+2021-09-09 17:10:26 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 6678
+2021-09-09 17:10:26 DEBUG TransferOperation:30 - change money from ef732290-d173-4640-8e29-99a815c5b211 6559
+2021-09-09 17:10:26 DEBUG TransferOperation:36 - change money to 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 6559
+2021-09-09 17:10:26 DEBUG TransferOperation:36 - change money to ef732290-d173-4640-8e29-99a815c5b211 6678
+2021-09-09 17:10:27 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 6342
+2021-09-09 17:10:27 DEBUG TransferOperation:36 - change money to 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 6342
+2021-09-09 17:10:27 DEBUG TransferOperation:30 - change money from 30b32565-1214-446a-8968-14db872d96fc 5899
+2021-09-09 17:10:27 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 5899
+2021-09-09 17:10:29 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 4576
+2021-09-09 17:10:29 DEBUG TransferOperation:36 - change money to 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 4576
+2021-09-09 17:10:29 DEBUG TransferOperation:30 - change money from 30b32565-1214-446a-8968-14db872d96fc 1884
+2021-09-09 17:10:29 DEBUG TransferOperation:36 - change money to 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 1884
+2021-09-09 17:10:30 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 4424
+2021-09-09 17:10:30 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 4424
+2021-09-09 17:10:30 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 2704
+2021-09-09 17:10:30 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 2704
+2021-09-09 17:10:31 DEBUG TransferOperation:30 - change money from 30b32565-1214-446a-8968-14db872d96fc 9204
+2021-09-09 17:10:31 DEBUG TransferOperation:36 - change money to ef732290-d173-4640-8e29-99a815c5b211 9204
+2021-09-09 17:10:32 DEBUG TransferOperation:30 - change money from ba023589-c31c-4b1f-86ca-f413696a222f 4428
+2021-09-09 17:10:32 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 1405
+2021-09-09 17:10:32 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 4428
+2021-09-09 17:10:32 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 1405
+2021-09-09 17:10:34 DEBUG TransferOperation:30 - change money from ba023589-c31c-4b1f-86ca-f413696a222f 9119
+2021-09-09 17:10:34 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 9119
+2021-09-09 17:10:34 DEBUG TransferOperation:25 - Not enough money from accout 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 3232
+2021-09-09 17:10:35 DEBUG TransferOperation:30 - change money from ba023589-c31c-4b1f-86ca-f413696a222f 6636
+2021-09-09 17:10:35 DEBUG TransferOperation:36 - change money to ef732290-d173-4640-8e29-99a815c5b211 6636
+2021-09-09 17:10:35 DEBUG TransferOperation:25 - Not enough money from accout 30b32565-1214-446a-8968-14db872d96fc 1470
+2021-09-09 17:10:35 DEBUG TransferOperation:30 - change money from ef732290-d173-4640-8e29-99a815c5b211 2923
+2021-09-09 17:10:35 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 2923
+2021-09-09 17:10:35 DEBUG TransferOperation:30 - change money from 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 1748
+2021-09-09 17:10:35 DEBUG TransferOperation:36 - change money to ef732290-d173-4640-8e29-99a815c5b211 1748
+2021-09-09 17:10:36 DEBUG TransferOperation:30 - change money from ba023589-c31c-4b1f-86ca-f413696a222f 4510
+2021-09-09 17:10:36 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 4510
+2021-09-09 17:10:36 DEBUG TransferOperation:25 - Not enough money from accout 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 1484
+2021-09-09 17:10:36 DEBUG TransferOperation:30 - change money from 30b32565-1214-446a-8968-14db872d96fc 1585
+2021-09-09 17:10:36 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 1585
+2021-09-09 17:10:38 DEBUG TransferOperation:30 - change money from ba023589-c31c-4b1f-86ca-f413696a222f 4834
+2021-09-09 17:10:38 DEBUG TransferOperation:36 - change money to ef732290-d173-4640-8e29-99a815c5b211 4834
+2021-09-09 17:10:38 DEBUG TransferOperation:30 - change money from ba023589-c31c-4b1f-86ca-f413696a222f 192
+2021-09-09 17:10:38 DEBUG TransferOperation:36 - change money to ba023589-c31c-4b1f-86ca-f413696a222f 192
+2021-09-09 17:10:39 DEBUG TransferOperation:30 - change money from ef732290-d173-4640-8e29-99a815c5b211 2018
+2021-09-09 17:10:39 DEBUG TransferOperation:25 - Not enough money from accout 30b32565-1214-446a-8968-14db872d96fc 4393
+2021-09-09 17:10:39 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 2018
+2021-09-09 17:10:41 DEBUG TransferOperation:30 - change money from 30b32565-1214-446a-8968-14db872d96fc 5143
+2021-09-09 17:10:41 DEBUG TransferOperation:25 - Not enough money from accout 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 1484
+2021-09-09 17:10:41 DEBUG TransferOperation:36 - change money to 30b32565-1214-446a-8968-14db872d96fc 5143
+2021-09-09 17:10:42 DEBUG TransferOperation:25 - Not enough money from accout 82a61c80-8a10-4e00-a6ad-ed72b02ed68c 1484
+2021-09-09 17:10:42 DEBUG TransferOperation:25 - Not enough money from accout 30b32565-1214-446a-8968-14db872d96fc 6411
+2021-09-09 17:10:44 DEBUG TransferGenerator:47 - [Account [ID=30b32565-1214-446a-8968-14db872d96fc, Money=6411], Account [ID=ef732290-d173-4640-8e29-99a815c5b211, Money=25986], Account [ID=ba023589-c31c-4b1f-86ca-f413696a222f, Money=6119], Account [ID=82a61c80-8a10-4e00-a6ad-ed72b02ed68c, Money=1484]]

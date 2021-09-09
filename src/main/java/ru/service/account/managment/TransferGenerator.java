@@ -3,9 +3,6 @@ package ru.service.account.managment;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -15,28 +12,49 @@ import org.springframework.stereotype.Service;
 
 import ru.service.account.entity.Account;
 
+/**
+ * @author maxim
+ * сервис создания потоков и процессов изменения счетов аккаунтов
+ */
 @Service
 public class TransferGenerator {
 
 	private final static Logger logger = Logger.getLogger(TransferGenerator.class);
 
-
-	private ExecutorService executorService = Executors.newSingleThreadExecutor();
+	/**
+	 * количество аккаунтов для инициализации
+	 */
 	private int accoutsCount = 4;
+	
+	/**
+	 * количество потоков
+	 */
 	private int threadsCount = 2;
+	
+	/**
+	 * количество транзакций
+	 */
 	private volatile Integer transactionCount = 30;
 
-	private List<Account> accountList;
+	/**
+	 * список аккаунтов
+	 */
+	private List<Account> accountMap;
+	
+	private Object mutex = new Object();
 
+	/**
+	 * начать выполнение всех транзакций
+	 * @param context
+	 */
 	public void execute(ApplicationContext context) {
-		accountList = generateAccounts();
-		logger.debug(accountList);
+		accountMap = generateAccounts();
+		logger.debug(accountMap);
 
 		List<Thread> threadList = generateThreads();
 		threadList.stream().forEach(thread -> thread.start());
 
-
-		executorService.execute(() -> {
+		new Thread(() -> {
 			while (transactionCount > 0) {
 				try {
 					TimeUnit.MILLISECONDS.sleep(getRandomNumberUsingInts(1000, 2000));
@@ -46,16 +64,16 @@ public class TransferGenerator {
 				threadList.stream().forEach(thread -> thread.interrupt());
 			}
 
-			logger.debug(accountList.size() + " " + accountList);
+			logger.debug(accountMap);
 
-			executorService.shutdown();
 			SpringApplication.exit(context, () -> 0);
-		});
-
-
-
+		}).start();
 	}
 
+	/**
+	 * создание пула потоков
+	 * @return
+	 */
 	private List<Thread> generateThreads() {
 		List<Thread> threadList = new ArrayList<Thread>();
 		for (int i = 0; i < threadsCount; i++) {
@@ -73,55 +91,57 @@ public class TransferGenerator {
 		return threadList;
 	}
 
+	/**
+	 * получение 2 аккаунтов и выполнение операций с ними в рамках транзакции
+	 */
 	private void getAccountsAndExecute() {		
-		synchronized (transactionCount) {
+		synchronized (mutex) {
 			if (transactionCount == 0) {
 				return;
 			}
+			transactionCount--;
+			logger.debug("transaction " + transactionCount);
 		}
 
 		int changeValue = getRandomNumberUsingInts(1, 10000);
-		Account incomeAcc = null, outcomeAcc = null;
-		try {
-			incomeAcc = getRandomAccountFromList();
-			outcomeAcc = getRandomAccountFromList();			
-		} catch (ArrayIndexOutOfBoundsException e) {
-			logger.error("No free accounts to execute");
-			if (incomeAcc != null) {
-				synchronized (accountList) {
-					accountList.add(incomeAcc);
-				}
-			}
-			return;
-		}
+		Account incomeAcc = getRandomAccountFromList();
+		Account outcomeAcc = getRandomAccountFromList();
 
-		TransferOperation transferOperation = new TransferOperation(incomeAcc, outcomeAcc, changeValue);
-		synchronized (accountList) {
-			accountList.add(incomeAcc);
-			accountList.add(outcomeAcc);
-		}
-
-		transactionCount--;
-//		logger.debug("transaction end " + transactionCount + " " + Thread.currentThread().getName());
+		TransferOperation transferOperation = new TransferOperation(incomeAcc, outcomeAcc);
+		transferOperation.transferMoney(changeValue);
 	}
 
-	private Account getRandomAccountFromList() throws ArrayIndexOutOfBoundsException {
-		Random rand = new Random();
-		synchronized (accountList) {
-			Account account = accountList.remove(rand.nextInt(accountList.size()));
+	/**
+	 * получить случайный аккаунт из списка
+	 * @return
+	 */
+	private Account getRandomAccountFromList() {
+		synchronized (accountMap) {
+			Account account = accountMap.get(new Random().nextInt(accountMap.size()));
 			return account;
 		}		
 	}
 
 
+	/**
+	 * создание списка аккаунтов
+	 * @return
+	 */
 	private List<Account> generateAccounts() {
-		List<Account> accountList = new CopyOnWriteArrayList<Account>();
+		List<Account> accountList = new ArrayList<Account>();
 		for (int i = 0; i < accoutsCount; i++) {
-			accountList.add(new Account());
+			Account account = new Account();
+			accountList.add(account);
 		}
 		return accountList;
 	}
 
+	/**
+	 * генератор рандомных чисел
+	 * @param min
+	 * @param max
+	 * @return
+	 */
 	private int getRandomNumberUsingInts(int min, int max) {
 		Random random = new Random();
 		return random.ints(min, max)
